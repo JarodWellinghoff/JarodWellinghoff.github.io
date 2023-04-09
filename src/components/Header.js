@@ -2,10 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAnglesDown } from '@fortawesome/free-solid-svg-icons';
 
-const Header = () => {
-	const imageUrl =
-		'https://drive.google.com/uc?export=view&id=1u_Phw_PJw0bQ4A03EgeQ2G9WYn5A9o3G';
-
+const Header = ({ backgroundImage }) => {
 	const scrollToResume = () => {
 		const resumeElement = document.getElementById('resume');
 		resumeElement.scrollIntoView({ behavior: 'smooth' });
@@ -16,7 +13,7 @@ const Header = () => {
 			id="header"
 			className="relative h-screen w-full bg-cover bg-center"
 			style={{
-				backgroundImage: `url("${imageUrl}")`,
+				backgroundImage: `url("${backgroundImage}")`,
 			}}
 		>
 			<div className="absolute h-full w-full bg-black bg-opacity-50"></div>
