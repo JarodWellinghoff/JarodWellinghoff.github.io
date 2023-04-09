@@ -15,6 +15,8 @@ const Resume = () => {
 					href={googleDriveLink}
 					download="Jarod's Resume.pdf"
 					className="hover:animate-bounce hover:text-accent"
+					target="_blank"
+					rel="noreferrer"
 				>
 					Resume <FontAwesomeIcon icon={faFileArrowDown} size="xs" />
 				</a>
