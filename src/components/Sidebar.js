@@ -18,7 +18,7 @@ const Sidebar = () => {
 	return (
 		<>
 			<button
-				className={`fixed top-4 z-50 rounded-r-lg transition-all duration-300 focus:outline-none ${
+				className={` fixed top-4 z-50 rounded-r-lg transition-all duration-300 focus:outline-none ${
 					isOpen
 						? 'left-72 scale-125 bg-secondary p-2 text-primary'
 						: 'left-0  bg-secondary p-2 text-primary hover:scale-125'

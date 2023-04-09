@@ -13,7 +13,7 @@ module.exports = {
 			}),
 			textColor: {
 				primary: '#E2E8F0',
-				secondary: '#A0AEC0',
+				secondary: '#E6F1FF',
 				accent: '#4299E1',
 			},
 		},
