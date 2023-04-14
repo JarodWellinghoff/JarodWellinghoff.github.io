@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAnglesDown } from '@fortawesome/free-solid-svg-icons';
 
-const Header = ({ backgroundImage }) => {
+export default function Header({ backgroundImage }) {
 	const scrollToResume = () => {
 		const resumeElement = document.getElementById('resume');
 		resumeElement.scrollIntoView({ behavior: 'smooth' });
@@ -33,6 +33,4 @@ const Header = ({ backgroundImage }) => {
 			</button>
 		</div>
 	);
-};
-
-export default Header;
+}

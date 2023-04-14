@@ -6,7 +6,7 @@ import Resume from './components/Resume';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 
-function App() {
+export default function App() {
 	const imageUrl =
 		'https://drive.google.com/uc?export=view&id=1u_Phw_PJw0bQ4A03EgeQ2G9WYn5A9o3G';
 	const [isImageLoaded, setImageLoaded] = useState(false);
@@ -20,6 +20,7 @@ function App() {
 	if (!isImageLoaded) {
 		return null;
 	}
+
 	return (
 		<>
 			<Sidebar />
@@ -30,4 +31,3 @@ function App() {
 		</>
 	);
 }
-export default App;

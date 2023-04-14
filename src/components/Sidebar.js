@@ -8,7 +8,7 @@ import {
 
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
-const Sidebar = () => {
+export default function Sidebar() {
 	const [isOpen, setIsOpen] = useState(false);
 
 	const toggleSidebar = () => {
@@ -99,6 +99,4 @@ const Sidebar = () => {
 			)}
 		</>
 	);
-};
-
-export default Sidebar;
+}

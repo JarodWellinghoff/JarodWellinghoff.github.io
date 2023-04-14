@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
 
-const Resume = () => {
+export default function Resume() {
 	const googleDriveLink = 'https://gdurl.com/Eso9w';
 
 	return (
@@ -43,6 +43,4 @@ const Resume = () => {
 			</section>
 		</div>
 	);
-};
-
-export default Resume;
+}
